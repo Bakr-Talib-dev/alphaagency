@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html   class="p-0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    body{
+      box-sizing:border-box;
+      margin:0;
+      padding:0px;
+      list-style:none;
+      text-decoration:none;
+      outline:none;
+      border:none;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto;
+    }
+    @keyframes float1 {
+      0%   { transform: translate(400px, 400px); }
+      25%  { transform: translate(200px, 500px); }
+      50%  { transform: translate(100px, 700px); }
+      75%  { transform: translate(400px, 100px); }
+      100% { transform: translate(400px, 400px); }
+    }
+
+    @keyframes float2 {
+      0%   { transform: translate(70px, 70px); }
+      20%  { transform: translate(270px, 270px); }
+      40%  { transform: translate(400px, 600px); }
+      70%  { transform: translate(170px, 170px); }
+      100% { transform: translate(70px, 70px); }
+    }
+
+.aaa{
+   animation: float1 10s ease-in-out infinite;
+}
+.bbb{
+   animation: float2 11s ease-in-out infinite;
+}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto;margin:0;padding:20px}
+    .swiper{width:100%; margin:20px auto}
+
+    /* سلايدر rels */
+    .rels .swiper-slide{
+      display:grid; 
+    }
+
+    /* سلايدر posts */
+    .posts .swiper-slide{
+     
+
+      display:grid;
+
+    }
+  </style>
+  </head>
+<body class="bg-[#170B30] text-white  " >
+<div class="aaa shadow-[0_0px_80px_60px_#BC8AFB] -z-10 rounded-full absolute  "></div>
+<div class="bbb shadow-[0_0px_80px_60px_#BC8AFB] -z-10 rounded-full absolute  "></div>
+    <main>
+      <div class="top-content flex justify-between items-center relative left-0">
+        <h1 class="text-4xl ml-5 font-bold my-4">
+            ALPHA <BR>AGENCY
+        </h1>
+<div class="logo  bg-gradient-to-tl to-gray-500 from-black w-7/12  relative rounded-tl-[40px] rounded-bl-[40px]  -right-5">
+            <img src="img/tra.png" class="w-30 h-30 rounded-full" alt="">
+</div>
+      </div>
+        <p class="text-right text-gray-300  mb-5 leading-6 m-5 ">
+وكالة ألفا للتسويق الرقمي والبرمجة ، متخصصة في إدارة السوشيال ميديا، التصوير، المونتاج، التصميم الجرافيكي والبرمجة، تقدم حلولاً مبتكرة لأصحاب الأعمال الراقية لبناء هوية قوية وتعزيز حضورهم الرقمي المؤثر       </p>
+     <div class="promo flex justify-center ">
+        <video src="img/برومو كبصو تجهيزات.mp4"  autoplay muted controls class=" bg-slate-500 mt-5 rounded-lg aspect-video "></video>
+     </div>
+        <!-- السلايدر الأول (rels) -->
+  <div class="swiper rels" dir="rtl">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><video class="rounded-3xl" src="img/ساعة فخمة عبق .mp4 " autoplay muted controls></video></div>
+      <div class="swiper-slide"><video class="rounded-3xl" src="img/شركة بيوليفا اخر تعدييييييل.mp4 " autoplay muted controls></video></div>
+      <div class="swiper-slide"><video class="rounded-3xl" src="img/متور وسيارة ايدت 22 .mp4 " autoplay muted controls></video></div>
+    
+    </div>
+  </div>
+
+  <!-- السلايدر الثاني (posts) -->
+  <div class="swiper posts" dir="rtl">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide "><img class="rounded-sm" src="img/بيتزا عرض.png" alt=""></div>
+      <div class="swiper-slide "><img class="" src="img/Screenshot 2025-08-31 192910.png" alt=""></div>
+      <div class="swiper-slide "><img class="" src="img/كاتو فواكه.png" alt=""></div>
+      <div class="swiper-slide "><img class="" src="img/Screenshot 2025-08-31 192926.png" alt=""></div>
+      <div class="swiper-slide "><img class="" src="img/Screenshot 2025-08-31 192854.png" alt=""></div>
+    
+    </div>
+  </div>
+<div class="flex justify-center my-10">
+        <a href="https://drive.google.com/drive/folders/19cSHDVmzeptIzcsFFM2x5PrVg-a9cTfu" class="bg-[#BC8AFB] w-10/12 rounded-lg block text-center mb-10 p-3 font-[700] ">عرض المزيد من أعمالنا</a>
+  
+</div>
+  <footer class="  flex  justify-around items-center gap-4  bg-[#00000099] backdrop-blur-md fixed bottom-0 left-0 right-0 p-3  z-10">
+<a href=https://wa.me/963991358486 "><img src="img/whatsapp.png" class="w-8 h-8 " alt=""></a>
+<a href="https://www.instagram.com/alphaagency.sy?igsh=MXZ0bWppdmdqYm12MQ=="><img src="img/instagram.png" class="w-8 h-8 " alt=""></a>
+<a href="https://www.facebook.com/share/1G6WLt5PVb/"><img src="img/communication.png" class="w-8 h-8 " alt=""></a>
+        </footer>
+    </main>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    // سلايدر rels
+    const relsSwiper = new Swiper('.rels', {
+      loop: true,
+      slidesPerView: 2,
+      spaceBetween: 20,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false
+      },
+    });
+
+    // سلايدر posts
+    const postsSwiper = new Swiper('.posts', {
+      loop: true,
+      slidesPerView: 3,
+      spaceBetween: 10,
+      autoplay: {
+        delay: 1500,
+        disableOnInteraction: false
+      },
+      breakpoints:{
+        768:{ slidesPerView:3 },
+        1024:{ slidesPerView:4 }
+      }
+    });
+  </script>
+</body>
+</html>
